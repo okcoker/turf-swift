@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		145E61C225F4DA57007B5E72 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E61C125F4DA57007B5E72 /* Helpers.swift */; };
+		145E61C325F4DA57007B5E72 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E61C125F4DA57007B5E72 /* Helpers.swift */; };
+		145E61C425F4DA57007B5E72 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E61C125F4DA57007B5E72 /* Helpers.swift */; };
+		145E61C525F4DA57007B5E72 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E61C125F4DA57007B5E72 /* Helpers.swift */; };
+		145E61D625F4DDC5007B5E72 /* Disjoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E61D525F4DDC5007B5E72 /* Disjoint.swift */; };
+		145E61D725F4DDC5007B5E72 /* Disjoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E61D525F4DDC5007B5E72 /* Disjoint.swift */; };
+		145E61D825F4DDC5007B5E72 /* Disjoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E61D525F4DDC5007B5E72 /* Disjoint.swift */; };
+		145E61D925F4DDC5007B5E72 /* Disjoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E61D525F4DDC5007B5E72 /* Disjoint.swift */; };
 		2B5FABFD24066EB7008A285F /* geometry-collection.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2B5FABFB24066EA5008A285F /* geometry-collection.geojson */; };
 		2B5FABFE24066EB8008A285F /* geometry-collection.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2B5FABFB24066EA5008A285F /* geometry-collection.geojson */; };
 		2B5FABFF24066EB9008A285F /* geometry-collection.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2B5FABFB24066EA5008A285F /* geometry-collection.geojson */; };
@@ -183,6 +191,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		145E61C125F4DA57007B5E72 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		145E61D525F4DDC5007B5E72 /* Disjoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disjoint.swift; sourceTree = "<group>"; };
 		2B5FABFB24066EA5008A285F /* geometry-collection.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = "geometry-collection.geojson"; sourceTree = "<group>"; };
 		2B5FAC0024067051008A285F /* GeometryCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCollectionTests.swift; sourceTree = "<group>"; };
 		2B5FAC092406B8B7008A285F /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
@@ -293,6 +303,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		145E61D425F4DDB8007B5E72 /* Boolean */ = {
+			isa = PBXGroup;
+			children = (
+				145E61D525F4DDC5007B5E72 /* Disjoint.swift */,
+			);
+			path = Boolean;
+			sourceTree = "<group>";
+		};
 		2B74CD90248538E500EE6693 /* Geometries */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +328,7 @@
 		3547ECED200C3C78009DA062 /* Turf */ = {
 			isa = PBXGroup;
 			children = (
+				145E61D425F4DDB8007B5E72 /* Boolean */,
 				3547ECEF200C3C78009DA062 /* Turf.h */,
 				3547ECF2200C3C78009DA062 /* Info.plist */,
 				CE2EB997214C246A00915A30 /* BoundingBox.swift */,
@@ -325,6 +344,7 @@
 				35B56E6E20DAF41F00C4923D /* Ring.swift */,
 				7AA969AB21B98F8F009C57FE /* Spline.swift */,
 				3547ECF1200C3C78009DA062 /* Turf.swift */,
+				145E61C125F4DA57007B5E72 /* Helpers.swift */,
 			);
 			path = Turf;
 			sourceTree = "<group>";
@@ -723,8 +743,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B74CD7E2485375C00EE6693 /* MultiPoint.swift in Sources */,
+				145E61D725F4DDC5007B5E72 /* Disjoint.swift in Sources */,
 				3534C3BD200C442A00F93581 /* Turf.swift in Sources */,
 				2B74CD832485377900EE6693 /* MultiLineString.swift in Sources */,
+				145E61C325F4DA57007B5E72 /* Helpers.swift in Sources */,
 				35ECAF372099EC0700DC3BC3 /* FeatureIdentifier.swift in Sources */,
 				3534C3BC200C442700F93581 /* CoreLocation.swift in Sources */,
 				2B74CD8D248538A600EE6693 /* GeometryCollection.swift in Sources */,
@@ -768,8 +790,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B74CD7D2485375C00EE6693 /* MultiPoint.swift in Sources */,
+				145E61D625F4DDC5007B5E72 /* Disjoint.swift in Sources */,
 				3547ECF6200C3C78009DA062 /* Turf.swift in Sources */,
 				2B74CD822485377900EE6693 /* MultiLineString.swift in Sources */,
+				145E61C225F4DA57007B5E72 /* Helpers.swift in Sources */,
 				35ECAF362099EC0700DC3BC3 /* FeatureIdentifier.swift in Sources */,
 				3547ECF5200C3C78009DA062 /* CoreLocation.swift in Sources */,
 				2B74CD8C248538A600EE6693 /* GeometryCollection.swift in Sources */,
@@ -813,8 +837,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B74CD7F2485375C00EE6693 /* MultiPoint.swift in Sources */,
+				145E61D825F4DDC5007B5E72 /* Disjoint.swift in Sources */,
 				DA39EB7E20101FCD004D87F7 /* Turf.swift in Sources */,
 				2B74CD842485377900EE6693 /* MultiLineString.swift in Sources */,
+				145E61C425F4DA57007B5E72 /* Helpers.swift in Sources */,
 				35ECAF382099EC0700DC3BC3 /* FeatureIdentifier.swift in Sources */,
 				DA39EB7D20101FCD004D87F7 /* CoreLocation.swift in Sources */,
 				2B74CD8E248538A600EE6693 /* GeometryCollection.swift in Sources */,
@@ -858,8 +884,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B74CD802485375C00EE6693 /* MultiPoint.swift in Sources */,
+				145E61D925F4DDC5007B5E72 /* Disjoint.swift in Sources */,
 				DA9424A52010298300CDB4E6 /* Turf.swift in Sources */,
 				2B74CD852485377900EE6693 /* MultiLineString.swift in Sources */,
+				145E61C525F4DA57007B5E72 /* Helpers.swift in Sources */,
 				35ECAF392099EC0700DC3BC3 /* FeatureIdentifier.swift in Sources */,
 				DA9424A42010298300CDB4E6 /* CoreLocation.swift in Sources */,
 				2B74CD8F248538A600EE6693 /* GeometryCollection.swift in Sources */,

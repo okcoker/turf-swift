@@ -46,3 +46,16 @@ public func mid(_ coord1: LocationCoordinate2D, _ coord2: LocationCoordinate2D) 
     let heading = coord1.direction(to: coord2)
     return coord1.coordinate(at: dist / 2, facing: heading)
 }
+//
+//public func booleanIntersects(feature1: Polygon, feature2: Polygon) -> Bool {
+//    let bool = false;
+//    flattenEach(feature1, (flatten1) => {
+//        flattenEach(feature2, (flatten2) => {
+//            if (bool === true) {
+//                return true;
+//            }
+//            bool = !booleanDisjoint(flatten1.geometry, flatten2.geometry);
+//        })
+//    })
+//    return bool;
+//}
